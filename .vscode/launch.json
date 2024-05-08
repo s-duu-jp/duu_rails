@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "railhoge",
+      "type": "rdbg",
+      "rdbgPath": "bundle exec rdbg",
+      "request": "launch",
+      "cwd": "${workspaceRoot}/backend/api/",
+      "command": "bin/rails",
+      "script": "s",
+      "args": [""],
+      "askParameters": false,
+      "useTerminal": true
+    }
+  ]
+}

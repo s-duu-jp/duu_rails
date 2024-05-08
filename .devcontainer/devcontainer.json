@@ -24,11 +24,18 @@
         "editor.codeActionsOnSave": [
           "source.addMissingImports",
           "source.fixAll.eslint"
-        ]
+        ],
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
       },
       "extensions": [
         "eamodio.gitlens",
-        "GitHub.copilot"
+        "GitHub.copilot",
+        "esbenp.prettier-vscode",
+        "misogi.ruby-rubocop",
+        "KoichiSasada.vscode-rdbg",
+        "Shopify.ruby-lsp",
+        "humao.rest-client"
       ]
     }
   }
